@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.navbar_E {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.search-form input {
+    padding: 15px 300px;
+    margin-right: 20px;
+    border: none;
+    background-color: rgb(230, 232, 234);
+    border-radius: 40px;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.search-form i.lupa {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-500%);
+    }
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #333
+    vertical-align: middle;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px; /* Ajusta el valor según el espacio deseado */
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links li a hover {
+    text-decoration: underline;
+}
+
+.nav-links li img {
+    width: 35px;
+    height: 35px;
+}
+.nav-links2 {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #333
+    vertical-align: middle;
+    align-items: center;
+}
+
+.nav-links2 li img {
+    width: 35px;
+    height: 35px;
+}
+
+header {
+    background-color: #e60023;
+    color: #fff;
+    padding: 20px;
+} 
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Envolver los elementos en múltiples líneas */
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.cards-container > * {
+    flex-basis: 20%; /* Establecer el ancho de los elementos hijos al 20% */
+}
+
+.cards-container img {
+    border-radius: 10px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    padding: 15px;
+}
+
+.cards-container {
+    width: 100%;
+}
+
+.grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos específicos de los elementos */
+
+h3 {
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+}
